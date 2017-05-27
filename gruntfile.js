@@ -7,19 +7,20 @@ module.exports = function(grunt) {
 		concat:{
 			js:{
 				src:[
-					'js/jquery.js',
-					'js/bootstrap.min.js', // Boostrap Script.min General,
-					'js/scrolling-nav.js', // Scrolling Nav Default Script,
+					'js/main_scripts/jquery.js',
+					'js/main_scripts/bootstrap.min.js', // Boostrap Script.min General,
+					'js/main_scripts/active_property.js',
+					'js/navigation_bar_scripts/scrolling-nav.js', // Scrolling Nav Default Script,
 
 					// Facts Section Number Counter Scripts/All
-					'js/waypoints.min.js',
-					'js/jquery.counterup.min.js',
-					'js/number-c.js', //Time to count,
+					'js/count_numbers/waypoints.min.js',
+					'js/count_numbers/jquery.counterup.min.js',
+					'js/count_numbers/number-c.js', //Time to count,
 					// --------------------------------------// 
 
 					// OWL Carousel 2.0 All.
-					'js/owl_time.js',
-					'js/owl.carousel.js',
+					'js/owl_carousel/owl_time.js',
+					'js/owl_carousel/owl.carousel.js',
 
 					// -------------------// 
 					
@@ -29,8 +30,8 @@ module.exports = function(grunt) {
 					// -------------------// 
 
 					// Animation.css Scripts after scroll
-					'js/wow.min.js',
-					'js/animate.js',
+					'js/animate_scripts/wow.min.js',
+					'js/animate_scripts/animate.js',
 					// --------------------------------// 
 
 					// Gallery Scripts New ONE
@@ -46,7 +47,7 @@ module.exports = function(grunt) {
 					'js/gallery/jquery.mousewheel.min.js',
 					// ---------------------------------//
 
-					'js/smoothscroll.js' // Smooth Scroll Script + time to Scroll,
+					'js/main_scripts/smoothscroll.js' // Smooth Scroll Script + time to Scroll,
 
 					],
 
